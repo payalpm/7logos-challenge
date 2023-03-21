@@ -1,0 +1,39 @@
+body {
+  
+}
+
+.facebook{
+    display:block;
+    margin:120px;
+    background-color:#3b5999;
+    width:90px;
+    height:90px;
+    border-radius:10px;
+    position:absolute ;
+    
+}
+.facebook:before{
+    content:' ';
+    display:block;
+    width:25px;
+    height:80px;
+    border-radius:20px 0 0 0;
+    border:13px solid #ffffff;
+    border-right:none;
+    border-bottom:none;
+    box-sizing:border-box;
+    position:absolute;
+    bottom:0;
+    right:20px;
+    
+}
+.facebook:after{
+    content:' ';
+    position:absolute ;
+    display:block;
+    width:35px;
+    height:10px;
+    bottom:40px;
+    right:20px; 
+    background-color:#ffffff;
+}

@@ -1,0 +1,52 @@
+
+.mercedes{
+    width: 89px;
+    height: 100%;
+    position: relative;
+    -webkit-animation: spin 2s ease-in-out;
+    animation: spin 4s ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    margin: 50px auto;
+}
+
+.circulo{
+	 width: 80px;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    border: 4px solid #858685
+}
+
+.bar,.bar::before,.bar::after{
+    position: absolute;
+    border-right: 3px solid transparent;
+    border-bottom: 40px solid #8f8f91;
+    border-left: 3px solid transparent;
+}
+.bar{
+      top: 9%;
+    left: 47%;
+}
+.bar::before{
+    content: "";
+    top: 25px;
+    left: -20px;
+    -webkit-transform: rotate(-120deg);
+    transform: rotate(-120deg);
+}
+.bar::after{
+    content: "";
+    top: 26px;
+    left: 12px;
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+@keyframes spin{
+	25%{ transform: rotate(0deg);}
+	50% {transform: rotate(120deg);}
+	75%{transform: rotate(240deg);}
+	100% {transform: rotate(360deg);}
+}
+	

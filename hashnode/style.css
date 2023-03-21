@@ -1,0 +1,22 @@
+#logo{
+    position:absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:210px;
+    width:210px;
+    background-color:#2962FF;
+    border-radius:50px;
+    transform:rotate(45deg);
+}
+#c1{
+    position:relative;
+    top:65px;
+    left:65px;
+    height:80px;
+    width:80px;
+    background-color:white;
+    border-radius:50%;
+}
